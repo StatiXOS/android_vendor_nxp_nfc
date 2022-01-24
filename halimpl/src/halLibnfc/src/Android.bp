@@ -41,8 +41,8 @@ cc_library_shared {
         "gki/common",
     ],
     include_dirs: [
-        "hardware/nxp/nfc/extns/impl/nxpnfc/2.0",
-        "hardware/nxp/secure_element/extns/impl/",
+        "vendor/nxpi/nfc/extns/impl/nxpnfc/2.0",
+        "vendor/nxpi/secure_element/extns/impl/",
     ],
     srcs: [
         "nfa/dm/*.cc",
