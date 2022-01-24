@@ -1,0 +1,5 @@
+# NFC
+/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@1\.2-service\.pn8x    u:object_r:hal_nfc_default_exec:s0
+
+# Secure Element
+/(vendor|system/vendor)/bin/hw/android\.hardware\.secure_element@1\.2-service\.p73    u:object_r:hal_secure_element_default_exec:s0
