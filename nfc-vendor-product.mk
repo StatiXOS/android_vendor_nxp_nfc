@@ -10,6 +10,7 @@ NXP_VENDOR_PATH := vendor/nxpi
 PRODUCT_COPY_FILES += \
     $(NXP_VENDOR_PATH)/nfc/halimpl/libnfc-nxp-$(NXP_NFC_HARDWARE)_example.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     $(NXP_VENDOR_PATH)/nfc/halimpl/libnfc-nxp_RF-$(NXP_NFC_HARDWARE)_example.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
+    $(NXP_VENDOR_PATH)/nfc/vendor.nxp.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.nfc.rc \
     $(NXP_VENDOR_PATH)/secure_element/libese-spi/p73/libese-nxp-P73.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf
 
 PRODUCT_COPY_FILES += \
