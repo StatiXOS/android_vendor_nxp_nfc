@@ -4,7 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-NXP_NFC_HARDWARE := PN81T
 NXP_VENDOR_PATH := vendor/nxpi
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
